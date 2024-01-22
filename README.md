@@ -32,7 +32,7 @@ sonar   ALL=(ALL)       NOPASSWD: ALL
 
 # Change the owner and group permissions to /opt/sonarqube/ directory.
 chown -R sonar:sonar /opt/sonarqube/
-chmod -R 775 /opt/sonarqube/
+chmod -R 755 /opt/sonarqube/
 su - sonar
 cd /opt/sonarqube/bin/linux-x86-64/
 # start the server
